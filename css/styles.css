@@ -2003,7 +2003,7 @@ progress {
   display: none !important;
 } */
 /* footer section will be hidden on bigger screen sizes */
-#footer_section {
+#connect {
   display: none;
 }
 /* hide social icons at the bottom under bigger screen */
@@ -2054,19 +2054,19 @@ progress {
     display: none;
   }
   /* footer section will be shown under this size of screen or else will be hidden */
-  #footer_section {
+  #connect {
     display: block;
   }
   #copyright_section_top {
     display: none;
   }
   /* bellow developer name color change need further work, as its not changing color */
-  #footer_section > .copyrights > .developer_name {
+  #connect > .copyrights > .developer_name {
     color: var(--bs-navbar-color) !important;
   }
 
-  #footer_section > .copyrights > .developer_name:hover,
-  #footer_section > .copyrights > .developer_name:focus {
+  #connect > .copyrights > .developer_name:hover,
+  #connect > .copyrights > .developer_name:focus {
     color: var(--bs-navbar-active-color) !important;
   }
 }
